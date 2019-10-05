@@ -1,0 +1,126 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" collection="true">
+  <variables>
+    <variable type="" id="db/U/mL$(,Mb#Gj!(+BI">Welcome</variable>
+    <variable type="" id="rg8UWV4@gI,x^nGlh9QG">23556</variable>
+  </variables>
+  <block type="tick_analysis" id="8sKA)0P}[:x/s2aHfmi$" collapsed="true" x="-86" y="38">
+    <statement name="TICKANALYSIS_STACK">
+      <block type="controls_if" id="OdwkskdzS5ZX7!`Y;vo1" collapsed="true">
+        <value name="IF0">
+          <block type="logic_compare" id="Xl%=l$[Q7E(!]Pp.`TPt">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="G%3p;b9_H3fbG!v@!I;4">
+                <field name="VAR" id="db/U/mL$(,Mb#Gj!(+BI" variabletype="">Welcome</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_null" id="iiZ|09H=xP3vu}TXX6CT"></block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="notify" id="~h%HZ|-B.#cYk-K))QZ5" collapsed="true">
+            <field name="NOTIFICATION_TYPE">success</field>
+            <field name="NOTIFICATION_SOUND">silent</field>
+            <value name="MESSAGE">
+              <shadow type="text" id="D%3:=$r.8hcXtKj0F:FY">
+                <field name="TEXT">Total_Mega_Blaster_Super-Trader Bot</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="notify" id="@hpEAACuZ_@BtnJXS`f=" collapsed="true">
+                <field name="NOTIFICATION_TYPE">success</field>
+                <field name="NOTIFICATION_SOUND">silent</field>
+                <value name="MESSAGE">
+                  <shadow type="text" id="Xax~8K*N7W,q$P=.AUi|">
+                    <field name="TEXT">Respeite seu gerenciamento!!</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="variables_set" id="Pm8)lZg{JEg{~f3I/1en" collapsed="true">
+                    <field name="VAR" id="db/U/mL$(,Mb#Gj!(+BI" variabletype="">Welcome</field>
+                    <value name="VALUE">
+                      <block type="text" id="|O@p27[*GH2fr`7-w8_`">
+                        <field name="TEXT">Done</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="|h$:{Q4v{S(Xqx@T{n)/" collapsed="true">
+            <mutation elseif="1" else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="1x{~{8e|I?ukWk=jw*k8">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="[}kek{sp~_hmr/KF?cUI">
+                    <field name="VAR" id="rg8UWV4@gI,x^nGlh9QG" variabletype="">23556</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_null" id="?kgLp2z,;+=L#[M(lH1?"></block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="_|1:PDnmmb}OV(VKE}FB" collapsed="true">
+                <field name="VAR" id="rg8UWV4@gI,x^nGlh9QG" variabletype="">23556</field>
+                <value name="VALUE">
+                  <block type="text_prompt_ext" id="L{h+Rx20Os-KU71_t0!@">
+                    <mutation type="TEXT"></mutation>
+                    <field name="TYPE">TEXT</field>
+                    <value name="TEXT">
+                      <shadow type="text" id="^cHs3Bad?*@ADH9nayA]">
+                        <field name="TEXT">Digite a senha de associado para rodar o Total_Mega_Blaster_Super-Trader Bot  :</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="logic_compare" id="h=aa13-Fr/~9zfPM9C6." collapsed="true">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="v_qW(;-}PD)*Hnn1UK,i">
+                    <field name="VAR" id="rg8UWV4@gI,x^nGlh9QG" variabletype="">23556</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="u{#NKgSLz28)4tZFu*:F">
+                    <field name="NUM">0246897531</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="ELSE">
+              <block type="notify" id="g=.j.r$ME:FHo,h/of2r">
+                <field name="NOTIFICATION_TYPE">error</field>
+                <field name="NOTIFICATION_SOUND">severe-error</field>
+                <value name="MESSAGE">
+                  <shadow type="text" id="N)_6Q1XRs+k4p8/:]Kui">
+                    <field name="TEXT">SENHA ERRADA !</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="text_print" id="o@{i1SD(*0.8C!DMuvZ2">
+                    <value name="TEXT">
+                      <shadow type="text" id="OS6np~DG6wg|w+9w#c(o">
+                        <field name="TEXT">Entre em contato com o suporte ; TMBS_Trader.Bot@gmail.com</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
