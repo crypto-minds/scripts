@@ -34,7 +34,7 @@
                 <field name="NOTIFICATION_SOUND">silent</field>
                 <value name="MESSAGE">
                   <shadow type="text" id="Xax~8K*N7W,q$P=.AUi|">
-                    <field name="TEXT">N„o seja ganancioso e ir· lucrar sempre !</field>
+                    <field name="TEXT">N√£o seja ganancioso e ir√° lucrar sempre !</field>
                   </shadow>
                 </value>
                 <next>
@@ -76,7 +76,7 @@
                     <field name="TYPE">TEXT</field>
                     <value name="TEXT">
                       <shadow type="text" id="^cHs3Bad?*@ADH9nayA]">
-                        <field name="TEXT">O Mario Maiden Bot curte ouvir Iron Maiden enquanto trabalha #ficadica... Digite o cÛdigo de Acesso Vigente:</field>
+                        <field name="TEXT">O Mario Maiden Bot curte ouvir Iron Maiden enquanto trabalha #ficadica... Digite o c√≥digo de Acesso Vigente:</field>
                       </shadow>
                     </value>
                   </block>
@@ -104,7 +104,7 @@
                 <field name="NOTIFICATION_SOUND">severe-error</field>
                 <value name="MESSAGE">
                   <shadow type="text" id="N)_6Q1XRs+k4p8/:]Kui">
-                    <field name="TEXT">CÛdigo de Acesso Inv·lido ou Expirado !</field>
+                    <field name="TEXT">C√≥digo de Acesso Inv√°lido ou Expirado !</field>
                   </shadow>
                 </value>
                 <next>
