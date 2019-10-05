@@ -34,7 +34,7 @@
                 <field name="NOTIFICATION_SOUND">silent</field>
                 <value name="MESSAGE">
                   <shadow type="text" id="Xax~8K*N7W,q$P=.AUi|">
-                    <field name="TEXT">Respeite seu gerenciamento!!</field>
+                    <field name="TEXT">Não seja ganancioso - Siga sua meta diária !!</field>
                   </shadow>
                 </value>
                 <next>
@@ -104,14 +104,14 @@
                 <field name="NOTIFICATION_SOUND">severe-error</field>
                 <value name="MESSAGE">
                   <shadow type="text" id="N)_6Q1XRs+k4p8/:]Kui">
-                    <field name="TEXT">SENHA ERRADA !</field>
+                    <field name="TEXT">SENHA ERRADA ou EXPIRADA !!!</field>
                   </shadow>
                 </value>
                 <next>
                   <block type="text_print" id="o@{i1SD(*0.8C!DMuvZ2">
                     <value name="TEXT">
                       <shadow type="text" id="OS6np~DG6wg|w+9w#c(o">
-                        <field name="TEXT">Entre em contato com o suporte ; TMBS_Trader.Bot@gmail.com</field>
+                        <field name="TEXT">Renove sua mensalidade : hakuna.matata@outlook.com.br</field>
                       </shadow>
                     </value>
                   </block>
