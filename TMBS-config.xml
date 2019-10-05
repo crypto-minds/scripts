@@ -25,7 +25,7 @@
             <field name="NOTIFICATION_SOUND">silent</field>
             <value name="MESSAGE">
               <shadow type="text" id="D%3:=$r.8hcXtKj0F:FY">
-                <field name="TEXT">Total-Mega-Blaster-Super-Trader BOT</field>
+                <field name="TEXT">BOT PROTHEUS</field>
               </shadow>
             </value>
             <next>
@@ -76,7 +76,7 @@
                     <field name="TYPE">TEXT</field>
                     <value name="TEXT">
                       <shadow type="text" id="^cHs3Bad?*@ADH9nayA]">
-                        <field name="TEXT">Digite a senha de associado para rodar o Total_Mega_Blaster_Super-Trader Bot  :</field>
+                        <field name="TEXT">Digite a senha de associado para rodar o Bot Protheus :</field>
                       </shadow>
                     </value>
                   </block>
