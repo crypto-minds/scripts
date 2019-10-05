@@ -25,7 +25,7 @@
             <field name="NOTIFICATION_SOUND">silent</field>
             <value name="MESSAGE">
               <shadow type="text" id="D%3:=$r.8hcXtKj0F:FY">
-                <field name="TEXT">Total_Mega_Blaster_Super-Trader Bot</field>
+                <field name="TEXT">Total-Mega-Blaster-Super-Trader BOT</field>
               </shadow>
             </value>
             <next>
@@ -93,7 +93,7 @@
                 </value>
                 <value name="B">
                   <block type="math_number" id="u{#NKgSLz28)4tZFu*:F">
-                    <field name="NUM">supermega</field>
+                    <field name="NUM">testdrive</field>
                   </block>
                 </value>
               </block>
